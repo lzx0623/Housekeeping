@@ -1,0 +1,9 @@
+<!--pages/shopping/shopping.wxml-->
+<view class="body">
+  <view class="foot">
+    <view class="round"></view>
+    <view class="sun">总计：￥{{}}</view>
+    <view class="edit">编辑</view>
+    <view class="settlement">结算</view>
+  </view>
+</view>

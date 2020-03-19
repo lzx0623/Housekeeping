@@ -1,0 +1,77 @@
+/* pages/shop/shop.wxss */
+.banner{
+  height: 330rpx
+}
+.icon{
+  height: 100rpx;
+  width: 100rpx;
+}
+.iconView{
+  display: flex;
+  justify-content: space-around;
+  font-size: 26rpx;
+}
+.offPirce{
+  height: 100rpx;
+  width: 300rpx
+}
+.FLEW{
+  display: flex;
+  margin:30rpx 0; 
+  overflow: auto;
+}
+.FLEW::-webkit-scrollbar{
+  display: none;
+}
+.Pirce{
+  font-size: 26rpx;
+  position: relative;
+  margin-left: 20rpx;
+}
+.oprice{
+  position: absolute;
+  top: 16rpx;
+  left: 50rpx;
+}
+.Pirce .offp{
+  border-bottom: 2rpx solid #ffffff;
+}
+.Pirce text{
+  font-size: 20rpx;
+}
+.Get{
+  position: absolute;
+  top: 10rpx;
+  left: 250rpx;
+  height: 100rpx;
+  width: 30rpx;
+  font-size: 18rpx;
+}
+.shopClass{
+  display: flex;
+  justify-content: space-between;
+  height: 200rpx;
+  margin-top: 40rpx;
+}
+.shopClass image{
+  width: 200rpx;
+  height: 210rpx;
+  margin:0 50rpx;
+}
+.name{
+  margin-top: 90rpx;
+  display: flex;
+  justify-content: space-between
+}
+.textPrice{
+  font-size: 50rpx;
+  color: red;
+}
+.shopClassRigt{
+  width: 670rpx;
+}
+button{
+  background-color: red;
+  color: white;
+  border-radius: 40rpx;
+}

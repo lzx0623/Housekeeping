@@ -1,0 +1,47 @@
+<!--pages/shop/shop.wxml-->
+<view class="page-section page-section-spacing swiper">
+  <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block class="banner" wx:for="{{background}}" wx:key="*this">
+      <swiper-item>
+        <view class="swiper-item {{item}}"></view>
+        <image class="banner" src="{{item}}" mode="aspectiFit"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="iconView">
+  <block wx:for="{{icon}}" wx:key="*this">
+    <view bindtap="tapclass" data-index="{{index}}">
+      <image src="{{item.img}}" class="icon" mode=""></image>
+      <view>{{item.name}}</view>
+    </view>
+  </block>
+</view>
+<view class="FLEW">
+  <block wx:for="{{price}}" wx:key="*this">
+    <view class="Pirce">
+      <image src="{{item.iconIMG}}" bindtap="tapName" data-index="{{index}}" class="offPirce"></image>
+      <view class="oprice">
+        <view class="offp">{{item.money}}</view>
+        <text>{{item.condition}}</text>
+      </view>
+      <view class="Get">{{item.isget}}</view>
+    </view>
+  </block>
+</view>
+<view>
+  <block wx:for='{{type}}' wx:key='*this'>
+    <view class="shopClass">
+      <view>
+        <image src="{{item.img}}"></image>
+      </view>
+      <view class="shopClassRigt">
+        <text>{{item.name}}</text>
+        <view class="name">
+          <text class="textPrice">{{item.price}}</text>
+          <button size="mini">预约</button>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

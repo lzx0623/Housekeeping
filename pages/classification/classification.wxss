@@ -1,0 +1,30 @@
+/* pages/classifiction/classification.wxss */
+.search{
+  border: 2rpx solid;
+}
+.serve{
+  display: flex;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+}
+.serve view{
+margin: 20rpx 10rpx;
+padding:15rpx 20rpx;
+}
+.serveView{
+  border-radius: 60rpx;
+  background-color: red;
+  color: white;
+}
+.img{
+  width: 350rpx;
+  height: 300rpx;
+}
+.shop{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.shop view{
+  margin-bottom: 10rpx;
+}

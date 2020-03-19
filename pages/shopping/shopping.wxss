@@ -1,0 +1,36 @@
+/* pages/shopping/shopping.wxss */
+.body{
+  background-color:rgba(144, 166, 207, 0.1);
+  height: 990rpx;
+}
+.round{
+  width: 30rpx;
+  height: 30rpx;
+  border-radius: 50%;
+  border: 2rpx solid;
+  margin: 25rpx;
+}
+.foot{
+  position: absolute;
+  top: 990rpx;
+  font-size: 30rpx;
+  display: flex;
+  line-height: 80rpx;
+  background-color: white;
+  border-top: 0.5rpx solid #6666666b; 
+}
+.sun{
+  width: 397rpx;
+}
+.edit{
+  background-color: blue;
+  text-align: center;
+  width: 140rpx;
+  color: white
+}
+.settlement{
+  background-color: red;
+  text-align: center;
+  width: 140rpx;
+  color: white
+}

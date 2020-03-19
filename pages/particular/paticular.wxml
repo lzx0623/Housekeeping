@@ -1,0 +1,5 @@
+<!--pages/particular/paticular.wxml-->
+<view>
+<image src="{{}}"></image>
+</view>
+<view>{{}}</view>
